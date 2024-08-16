@@ -24,6 +24,7 @@ Add a repository in your pom.xml
         </repository>
 ```
 Then add as a dependency in your pom.xml
+
 ```xml
         <dependency>
             <groupId>com.github.ElgarL</groupId>
