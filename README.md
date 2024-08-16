@@ -29,6 +29,7 @@ Then add as a dependency in your pom.xml
             <groupId>com.github.ElgarL</groupId>
             <artifactId>groupmanager</artifactId>
             <version>3.2</version>
+            <scope>provided</scope>
         </dependency>  
 ```
 
