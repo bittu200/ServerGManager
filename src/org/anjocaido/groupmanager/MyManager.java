@@ -1,4 +1,4 @@
-package com.example.myplugin;
+package org.anjocaido.groupmanager;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
