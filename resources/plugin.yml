@@ -1,15 +1,14 @@
-﻿name: ${project.name}
+﻿name: AdvancedGroupManagerJG
 main: ${groupId}.${project.name}
 version: ${project.version} (Phoenix)
 api-version: ${project.bukkitAPIVersion}
 
 authors:
+  - Jay Gamerz
   - AnjoCaido
   - Gabriel Couto
   - ElgarL
   
-website: https://github.com/ElgarL/GroupManager
-description: Provides on-the-fly system for permissions system created by Nijikokun. But all in memory, and with flat-file saving schedule.
 
 libraries:
     - org.postgresql:postgresql:42.4.2
