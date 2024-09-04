@@ -25,7 +25,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-public class Main extends JavaPlugin implements Listener {
+public class MyManager extends JavaPlugin implements Listener {
 
     private Connection connection;
     private FileConfiguration messagesConfig;
