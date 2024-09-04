@@ -45,6 +45,11 @@
 	</repositories>
 
 	<dependencies>
+		 <dependency>
+        <groupId>com.warrenstrange</groupId>
+        <artifactId>googleauth</artifactId>
+        <version>1.5.0</version>
+    </dependency>
 		<!--Bukkit API -->
 		<dependency>
 			<groupId>org.spigotmc</groupId>
