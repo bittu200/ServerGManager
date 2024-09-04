@@ -21,6 +21,27 @@ libraries:
 softdepend: [PlaceholderAPI]
 
 permissions:
+    groupmanager.gm1:
+        description: Allows the player to use /gm1 command.
+        default: op
+    groupmanager.gm2:
+        description: Allows the player to use /gm2 command.
+        default: op
+    groupmanager.gm3:
+        description: Allows the player to use /gm3 command.
+        default: op
+    groupmanager.fly:
+        description: Allows the player to use /fly command.
+        default: op
+    groupmanager.tp:
+        description: Allows the player to use /tp command.
+        default: op
+    groupmanager.staff:
+        description: Allows the player to toggle staff mode with /staff.
+        default: op
+    groupmanager.banmanager:
+        description: Allows the player to access the ban manager GUI.
+        default: op
     groupmanager.*:
         description: A wildcard to grant all permissions.
         default: op
