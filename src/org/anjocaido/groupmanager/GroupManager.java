@@ -16,7 +16,7 @@
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 package org.anjocaido.groupmanager;
-
+import org.anjocaido.groupmanager.MyManager;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
