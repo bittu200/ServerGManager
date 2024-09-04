@@ -17,8 +17,6 @@
  */
 package org.anjocaido.groupmanager;
 //new
-package com.example.myplugin;
-
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.GameMode;
