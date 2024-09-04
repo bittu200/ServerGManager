@@ -3,6 +3,8 @@ main: ${groupId}.${project.name}
 version: ${project.version} (Phoenix)
 api-version: ${project.bukkitAPIVersion}
 
+
+
 authors:
   - Jay Gamerz
   - AnjoCaido
@@ -96,6 +98,34 @@ permissions:
             groupmanager.mancheckw: true
 
 commands:
+  gm1:
+    description: Change your or another player's game mode to Creative.
+    usage: /gm1 [player]
+    permission: groupmanager.gm1
+  gm2:
+    description: Change your or another player's game mode to Adventure.
+    usage: /gm2 [player]
+    permission: groupmanager.gm2
+  gm3:
+    description: Change your or another player's game mode to Spectator.
+    usage: /gm3 [player]
+    permission: groupmanager.gm3
+  fly:
+    description: Toggle flight mode for yourself or another player.
+    usage: /fly [player]
+    permission: groupmanager.fly
+  tp:
+    description: Teleport yourself or another player to specific coordinates.
+    usage: /tp <x> <y> <z> or /tp <player>
+    permission: groupmanager.tp
+  staff:
+    description: Toggle staff mode.
+    usage: /staff
+    permission: groupmanager.staff
+  banmanager:
+    description: Open the ban manager GUI.
+    usage: /banmanager
+    permission: groupmanager.banmanager
   manuadd:
     description: Moves a player to the desired group (Adds to the file if does not exist).
     usage: /<command> <player> <group> | optional [world]
